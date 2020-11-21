@@ -1,4 +1,4 @@
-source 'https://github.com/doquanghuy/iOSTCBDomain.git'
+source 'https://github.com/doquanghuy/iOSTCBDomainSpecs.git'
 
 platform :ios, '11.0'
 
@@ -18,7 +18,7 @@ target 'TCBService' do
   pod 'PaymentOrderClient', $retailVersion
   pod 'TransactionsClient', $retailVersion
   pod 'NotificationsClient', $retailVersion
-  pod 'TCBDomain', :git => 'https://github.com/doquanghuy/iOSTCBDomain.git', :branch => 'master'
+  pod 'TCBDomain', '1.0.5'
   pod 'AccessControlClient', $retailVersion
   pod 'UserProfileClient', $retailVersion
   pod 'ContactsClient', $retailVersion
