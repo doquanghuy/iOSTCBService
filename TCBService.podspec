@@ -6,20 +6,20 @@ Pod::Spec.new do |s|
   s.authors = { 'Techcombank' => 'info@techcombank.com.vn' }
   s.source = { :git => 'https://github.com/doquanghuy/iOSTCBService.git', :tag => s.version }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
   s.source_files = 'TCBService/*'
   s.resource = 'Assets/assets'
 
   s.dependency 'Backbase', '7.1'
-  s.dependency 'CommonUtils', '7.1'
-  s.dependency 'ProductsClient', '7.1'
-  s.dependency 'PaymentOrderClient', '7.1'
-  s.dependency 'TransactionsClient', '7.1'
-  s.dependency 'NotificationsClient', '7.1'
+  s.dependency 'CommonUtils', '7.0.0'
+  s.dependency 'ProductsClient', '7.0.0'
+  s.dependency 'PaymentOrderClient', '7.0.0'
+  s.dependency 'TransactionsClient', '7.0.0'
+  s.dependency 'NotificationsClient', '7.0.0'
   s.dependency 'TCBDomain', '1.0.5'
-  s.dependency 'AccessControlClient', '7.1'
-  s.dependency 'UserProfileClient', '7.1'
-  s.dependency 'ContactsClient', '7.1'
+  s.dependency 'AccessControlClient', '7.0.0'
+  s.dependency 'UserProfileClient', '7.0.0'
+  s.dependency 'ContactsClient', '7.0.0'
 end

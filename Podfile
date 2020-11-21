@@ -9,7 +9,7 @@ plugin 'cocoapods-art', sources: %w[
 
 use_frameworks!
 
-$retailVersion = '7.1'
+$retailVersion = '7.0.0'
 
 target 'TCBService' do
   pod 'Backbase', '7.1'
