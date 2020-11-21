@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'PaymentOrderClient', '7.0.0'
   s.dependency 'TransactionsClient', '7.0.0'
   s.dependency 'NotificationsClient', '7.0.0'
-  s.dependency 'TCBDomain'
+  s.dependency 'TCBDomain', '1.0.5'
   s.dependency 'AccessControlClient', '7.0.0'
   s.dependency 'UserProfileClient', '7.0.0'
   s.dependency 'ContactsClient', '7.0.0'
