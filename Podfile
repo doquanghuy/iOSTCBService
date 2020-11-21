@@ -18,7 +18,7 @@ target 'TCBService' do
   pod 'PaymentOrderClient', $retailVersion
   pod 'TransactionsClient', $retailVersion
   pod 'NotificationsClient', $retailVersion
-  pod 'TCBDomain', :git => 'https://github.com/doquanghuy/iOSTCBDomain.git', :tag => '1.0.5'
+  pod 'TCBDomain', :git => 'https://github.com/doquanghuy/iOSTCBDomain.git', :branch => 'master'
   pod 'AccessControlClient', $retailVersion
   pod 'UserProfileClient', $retailVersion
   pod 'ContactsClient', $retailVersion
