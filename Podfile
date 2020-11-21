@@ -1,4 +1,4 @@
-source 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbcore.git'
+source 'https://github.com/doquanghuy/iOSTCBDomain.git'
 
 platform :ios, '11.0'
 
@@ -18,7 +18,7 @@ target 'TCBService' do
   pod 'PaymentOrderClient', $retailVersion
   pod 'TransactionsClient', $retailVersion
   pod 'NotificationsClient', $retailVersion
-  pod 'TCBDomain'
+  pod 'TCBDomain', :git => 'https://github.com/doquanghuy/iOSTCBDomain.git', :tag => '1.0.5'
   pod 'AccessControlClient', $retailVersion
   pod 'UserProfileClient', $retailVersion
   pod 'ContactsClient', $retailVersion
