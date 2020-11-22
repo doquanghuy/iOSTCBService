@@ -1,6 +1,6 @@
 source 'https://github.com/doquanghuy/iOSTCBDomainSpecs.git'
 
-platform :ios, '11.0'
+platform :ios, '13.0'
 
 plugin 'cocoapods-art', sources: %w[
   backbase-pods3
