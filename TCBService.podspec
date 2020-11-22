@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'TCBService'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
   s.summary = 'TCBService'
   s.homepage = 'https://github.com/doquanghuy/iOSTCBService.git'
   s.authors = { 'Techcombank' => 'info@techcombank.com.vn' }
