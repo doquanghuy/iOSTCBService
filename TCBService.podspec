@@ -9,9 +9,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'TCBService/*'
+  s.source_files = 'TCBService/**/*.{swift}'
   s.resource = 'Assets/assets'
-
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
   s.dependency 'Backbase', '7.1'
   s.dependency 'CommonUtils', '7.0.0'
   s.dependency 'ProductsClient', '7.0.0'
