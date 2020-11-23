@@ -7,7 +7,7 @@ plugin 'cocoapods-art', sources: %w[
 
 install! 'cocoapods', deterministic_uuids: false
 source 'https://cdn.cocoapods.org/'
-source 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbcorespecs.git'
+source 'https://github.com/doquanghuy/iOSTCBDomainSpecs.git'
 
 use_frameworks!
 
