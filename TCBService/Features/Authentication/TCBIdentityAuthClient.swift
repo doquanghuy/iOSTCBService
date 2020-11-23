@@ -37,8 +37,8 @@ extension TCBIdentityAuthClient: PasswordAuthClientDelegate {
         let user = User(name: "Identity")
         
         if let accessToken = Backbase.authClient().tokens()["Authorization"]?.replacingOccurrences(of: "bearer ", with: "") {
-                    TCBSessionManager.shared.setAccessTokenUser(accessToken)
-                }
+            TCBSessionManager.shared.setAccessTokenUser(accessToken)
+        }
         
         // Set context
         guard let client = Backbase.registered(client: AccessControlClient.self) as? AccessControlClient else {
