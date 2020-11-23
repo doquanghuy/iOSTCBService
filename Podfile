@@ -20,7 +20,7 @@ target 'TCBService' do
   pod 'PaymentOrderClient', $retailVersion
   pod 'TransactionsClient', $retailVersion
   pod 'NotificationsClient', $retailVersion
-  pod 'TCBDomain', '1.0.6'
+  pod 'TCBDomain', '1.0.0'
   pod 'AccessControlClient', $retailVersion
   pod 'UserProfileClient', $retailVersion
   pod 'ContactsClient', $retailVersion
